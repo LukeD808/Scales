@@ -7,7 +7,7 @@ void draw() {
   for (int y = 510; y >= -60; y-=30){ // columns
     for (int x = 0; x <= 540; x+=30){ // rows
       fill(252-x/10-y/10, 186-x/10-y/10, 3-x/10-y/10); // gradient colors
-      stroke(y+200-x,0,0);
+      stroke(y+30-x/5,0,100);
       scale(x,y);
     }
   }
